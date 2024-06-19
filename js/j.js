@@ -1,0 +1,3 @@
+function nb(){
+  alert ("great");
+}
