@@ -1,3 +1,0 @@
-function nb(){
-  alert ("great");
-}
