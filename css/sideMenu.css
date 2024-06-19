@@ -1,0 +1,114 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    direction:rtl;
+    background-color: transparent;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  /*background-image: linear-gradient(to left, #6b74d1, #6979d4, #687fd6, #6784d8, #6689da, #6592de, #669be1, #69a3e4, #71b1e8, #7dbfec, #8dccef, #a0d9f2);
+  */
+  background-color: #1F9ED9;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 20px;
+  margin:10px 0px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color:#000;
+}
+
+#login-btn{
+  background-color: #045175;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  font-size: 36px;
+  margin-left: 30px;
+  padding-top:0px;
+  padding-left:8px;
+  margin-top:0px;
+  bottom:0px;
+  margin-bottom:0px;
+}
+.sidenav .closebtn:hover{
+    background-color: transparent;
+    color:indianred;
+}
+
+
+.sgin{
+    margin-bottom:5px;
+    margin-right:25px;
+    padding:12px 20px;
+    text-decoration: none;
+}
+.sgin:hover{
+    text-decoration: none;
+}
+
+.sidenav .bigLogo{
+  position: absolute;
+  right: 0px;
+  top:0px;
+  margin: 0px;
+  padding-bottom:20px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.sidenav .bigLogo:hover{
+ background-color: transparent;
+ color: #f1f1f1;
+}
+.sign{
+  padding:0px;
+  margin-right: 0px
+}
+.fa-bars{
+  font-size: 18px;
+}
+
+.sub{
+  margin:0px;
+  padding:0px;
+  display: none;
+}
+
+.sub .inside{
+  padding: 8px;
+  margin: 0px;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.icon{
+  color: #fff;
+  font-size: 20px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 16px;}
+}

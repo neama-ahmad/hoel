@@ -1,0 +1,559 @@
+
+*{
+    box-sizing: border-box
+}
+    
+body {
+    margin: 0;
+    font-family: 'Tajawal', sans-serif;
+    /*background-color: #fdcd61;
+    background-image: linear-gradient(to left, #6b74d1, #6979d4, #687fd6, #6784d8, #6689da, #6592de, #669be1, #69a3e4, #71b1e8, #7dbfec, #8dccef, #a0d9f2);
+    */
+    background-color: #1F9ED9;
+    direction: rtl;
+    
+}
+
+
+.mather{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 8px;
+    height: 100px;
+    text-align: center
+}
+
+.menu{
+  background-color:transparent;
+  font-family: 'Tajawal', sans-serif;
+  height: 70px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 8px;
+  width: 100%;
+  margin:0px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+
+.menu .container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: left;
+  width: 60%;
+}
+
+.menu .Logocontainer{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: right;
+  width: 32%;
+}
+
+.menu .button{
+  padding: 8px 30px;
+  margin-right: 16px;
+}
+
+
+
+#logo{
+  width: 62%;
+  height: 62%;
+  
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6979d4;
+    height:100px;
+  }
+  
+  .typing-demo {
+    width: 150px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-left: 3px solid;
+    font-size: 30px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.button{
+    border: none;
+    color: white;
+    padding: 12px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Tajawal', sans-serif;
+    cursor: pointer;
+    background-color:  #000
+}
+
+.button:hover{
+    background-color: #69a3e4;
+    color: #fff;
+}
+
+.underline{
+    text-align: center;
+    color: #000;
+}
+
+.underline:hover{
+   color: #6979d4;
+}
+
+.popbox{
+    background-color: #fcd4de;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 12px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Tajawal', sans-serif;
+    width: 45%;
+    cursor: pointer;
+}
+.popbox p{
+    color: #000;
+    font-size: 16px;
+    padding:3px;
+    text-align: right;
+}
+.popbox a{
+   text-decoration: none;
+} 
+
+.popbox .close {
+    position: relative;
+    left: 0px;
+    color: rgb(182, 58, 58);
+    opacity: 0.6;
+    font-size: 28px;
+    float: left;
+}
+
+iframe{
+    margin-top: 12px;
+    border-radius:5px;
+}
+
+.forminput{
+    color: #000;
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px;
+    width: 60%;
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.5s ease-in-out;
+    font-family: 'Tajawal', sans-serif;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .btn-banner .forminput:placeholder {
+    color: #c0c0c0;
+  }
+  
+  .btn-banner .forminput:focus{
+    background-color: #fff;
+  }
+
+  select{
+    color: #333;
+    padding: 5px;
+    margin:20px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    width: 60%;
+    border: 1px solid #ccc;
+    font-family: 'Tajawal', sans-serif;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  *:focus {
+    outline: none;
+  } 
+
+  .logoContainer{
+    display:flex; 
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #slider{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width:20%;
+    height: 150px;
+    margin:20px; 
+}
+
+#slider::-webkit-scrollbar{
+  display: none;
+}
+
+.imgLogo{
+    height: 100%;
+    width:100%;        
+}
+
+.btnContainer .move{
+  font-size:24px;
+  padding: 4px 20px;
+  margin: 12px;
+}
+
+.start{
+  background-color: #fff;
+  color:#000;
+  font-size: 18px;
+}
+
+.start:hover{
+  background-color: #000;
+}
+
+
+/*footer*/
+.footer{
+  background-color:transparent;
+  font-family: 'Tajawal', sans-serif;
+  height:200px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 12px;
+  width: 100%;
+  margin-top:30px;
+  background-color: #fff;
+}
+
+.footer h3{
+    font-size: 16px;
+    color: #555;
+}
+
+.footer .middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ 
+}
+.footer .social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+ 
+}
+
+.social img{
+  width:13%;
+  height: 13%;
+  margin: 0px 8px;
+}
+
+.social .imgsmall{
+  width: 15%;
+  height: 15%;
+}
+
+
+
+.copyright{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background-color: #444;
+  color: #fff;
+}
+
+.copyright a{
+  color:#fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.copyright #year{
+  color: #fff;
+}
+
+.copyright a:hover{
+  color: #6689da;
+}
+.copyright p{
+  font-size: 16px;
+}
+
+.brief{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.brief h2{
+  color: #fff;
+  font-size: 22px;
+}
+
+.brief p{
+  font-size: 16px;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  line-height: 2;
+
+}
+
+  @media (max-width:1200px){
+    body{
+        font-size: 16px;
+    }
+    .btn-banner{
+        padding: 8px;
+        height: 100px;
+    }
+
+    .menu{
+      width: 100%;
+    }
+    
+    
+    .menu .container{
+      width: 60%;
+    }
+    
+    .menu .Logocontainer{
+      width: 30%;
+    }
+    
+    .menu .button{
+      padding: 8px 20px;
+      margin-right: 10px;
+    }
+ 
+    
+    #logo{
+      width: 68%;
+      height: 68%;
+      
+    }
+    .title{
+        font-size: 26px;
+    }
+   
+    .button{
+        padding: 12px 60px;
+        font-size: 16px;
+        margin: 20px 0px ;
+    }
+    .popbox{
+        padding: 2px 18px;
+        width: 80%;
+    }
+    .popbox p{
+        font-size: 16px;
+    }
+    .popbox .close {
+        left: -3px;
+        font-size: 24px;
+    }
+    
+    iframe{
+        margin-top: 12px;
+        width:50%
+    }
+    
+    .forminput{
+        padding: 9px;
+        font-size: 16px;
+        margin: 8px;
+        width: 80%;
+      }
+    
+      .popbox select{
+        padding: 5px;
+        margin:8px;
+        font-size: 16px;
+        width: 100%;
+      }
+
+      .logoContainer{
+        width: 100%;
+      }
+    
+      #slider{
+        width:26%;
+        height: 150px;
+        margin:20px; 
+    }
+    
+    /*footer*/
+    .footer{
+      width: 100%;
+    }
+    
+    .footer .social{
+      width: 100%;
+    }
+    
+    .social img{
+      width:12%;
+      height: 12%;
+      margin:5px;
+    }
+    
+    .social .imgsmall{
+      width:14%;
+      height: 14%;
+    }
+    
+    .brief{
+      width: 70%;
+    }
+    
+    .brief h2{
+      color: #fff;
+      font-size: 20px;
+    }
+    
+
+}
+
+@media(max-width:870px){
+
+  .menu{
+    width: 100%;
+  }
+  
+  
+  .menu .container{
+    width: 80%;
+    margin-left: 12px;
+  }
+  
+  .menu .Logocontainer{
+    width: 30%;
+  }
+  
+  .menu .button{
+    padding: 8px 10px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+
+  .menu .btn{
+    display: none;
+  }
+  
+  
+  #logo{
+    width: 170%;
+    height: 170%;
+    
+  }
+  .logoContainer{
+    width: 100%;
+  }
+
+  #slider{
+    width:50%;
+    height: 120px;
+    margin:20px; 
+}
+
+iframe{
+  margin-top: 12px;
+  width:80%
+}
+
+.footer{
+  width: 100%;
+}
+
+.footer .social{
+  width: 100%;
+}
+
+.social img{
+  width:20%;
+  height: 20%;
+  margin:2px;
+}
+
+.social .imgsmall{
+  width:24%;
+  height: 24%;
+}
+
+.brief{
+  width: 96%;
+  padding: 12px;
+}
+
+.brief h2{
+  color: #fff;
+  font-size: 18px;
+}
+
+
+    
+}
+

@@ -1,0 +1,180 @@
+body{
+    font-size: 16px;
+}
+
+.error{
+    font-size:16px;
+    padding:2px 40px;
+}
+
+.logo{
+    width:26%;
+    height:26%;
+}
+.oldsister{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /*flex-wrap: nowrap;
+    overflow-x: auto;*/
+    width:90%;
+    margin: 12px 24px;
+}
+
+/*.oldsister::-webkit-scrollbar{
+    display: none;
+}*/
+
+.screen{
+    display: flex;
+    /*: 0 0 auto;*/
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Tajawal', sans-serif;
+    box-shadow: 5px 5px 30px 15px rgba(209, 209, 209, 0.25), 
+  -5px -5px 30px 15px rgba(211, 211, 211, 0.22);
+    cursor: pointer;
+    height: auto;
+    padding:12px;
+    margin:20px;
+    width:45%;        
+}
+
+/*.oldsister::-webkit-scrollbar{
+    display: none;
+}*/
+.form1{
+    margin:40px
+}
+.forminput{
+    width:80%;
+    padding:9px;
+    margin:8px;
+    border: 1px solid #bbb;
+}
+select{
+    width: 80%;
+    margin:8px;
+}
+
+.button:hover{
+    background-color:#fdcd61;
+    color:#fff;
+}
+
+.lastEdit .button{
+   padding: 8px 12px;
+}
+
+h4{
+    text-align:right;
+    padding: 12px 12px 0px 12px;
+}
+.btnContainer{
+   display:flex;
+   flex-direction: row;
+   width:80%;
+  justify-content:left;
+   
+}
+
+.btnContainer .btn{
+    background-color:#69a3e4;
+    padding: 9px 20px;
+    margin:30px 5px;
+}
+.btnContainer .btn:hover{
+    background-color:#000;
+}
+
+.btnContainer .btn:focus {
+   outline: none;
+} 
+table {
+font-family: 'Tajawal', sans-serif;
+border-collapse: collapse ;
+width: 100%;
+direction:rtl;
+margin:20px;
+border-radius: 5px;
+}
+
+td, th {
+border: 1px solid #ccc;
+text-align: right;
+font-size:16px;
+padding:9px;
+word-wrap: wrap;
+}
+
+th {
+background-color: #f1f1f1f1;
+color: #333;
+}
+
+.imgLogo{
+    height:25%;
+    width:25%;
+}
+
+.univ{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+.univ-btn{
+    margin:0px;
+    text-decoration: none;
+}
+
+.univ  img{
+    margin: 8px;
+    height: 80%;
+    width:80%;
+}
+
+.tu{
+  height: 50%;
+  width: 50%;
+}
+
+.univ-Title{
+    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+@media(max-width:1200px){
+    .screen{
+        width:60%;
+        margin:20px;
+        height: auto;
+    }
+    .forminput{
+        width: 80%;
+    }
+}
+@media(max-width:780px){
+    .screen{
+        width:100%;
+        margin:30px;
+        height: auto;
+    }
+    .forminput{
+        width: 80%;
+    }
+
+    .logo{
+        width:40%;
+        height:40%;
+    }
+}

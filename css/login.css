@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+  margin: 12px 24px;
+}
+
+.mather{
+  height:auto;
+  margin-top:50px;
+}
+.circles {
+  height: 120%;
+}
+
+
+.banner{
+  height: auto;
+  width:45%;
+  margin:40px;
+  padding: 40px 20px;
+  border-radius: 5px;
+  direction: rtl;
+  border-radius:5px;
+  background-color:#fff;
+}
+.banner .forminput{
+  width: 60%;
+}
+img{
+  height:26%;
+  width:26%;
+}
+
+
+.icon{
+  left: 39%;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 5;
+  color: #888;
+  cursor: pointer;
+  
+}
+
+.icon:hover{
+  color: indianred;
+}
+.icon:focus{
+  color: indianred;
+}
+
+@media(max-width:1200px){
+  .mather{
+      height:auto;
+  }
+  .banner{
+      height: auto;
+      width: 60%;
+      margin: 30px;
+  }
+
+  .banner .forminput{
+      width: 80%;
+  }
+
+  .icon{
+    left: 30%;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 5;
+    
+  }
+
+  @media(max-width:780px){
+      .mather{
+          height:auto;
+      }
+      .banner{
+          height: auto;
+          width: 100%;
+          margin:30px;
+      }
+      .banner .forminput{
+          width: 80%;
+      }
+
+      img{
+        height:40%;
+        width:40%;
+      }
+
+      .icon{
+        left: 22%;
+        margin-top: 20px;
+        position: absolute;
+        z-index: 5;
+        
+      }
+
+
+
+    
+  }
+
+}
