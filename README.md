@@ -10,11 +10,11 @@
 
   - ***user table*** > stores user data like his name, email, password and default role (user).
     
-   - ***majorinfo table*** > stores current student's universty, college, his GPA and his earend units.
+   - ***majorinfo table*** > stores current student's universty, college, his GPA and his earned units.
 
   - ***transform table*** > stores new universty name and new college that student want to transfer to it.
  
   - ***Equiv table*** > stores all subject's name, code  and number that is allowed to equivalent when student transfer to another college or university.
  
-  - ***video*** > stores youtube link just to change the video in main page and only admin can do it. 
+  - ***video table*** > stores youtube link just to change the video in main page and only admin can do it. 
   
